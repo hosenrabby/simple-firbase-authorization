@@ -10,7 +10,7 @@ const Login = () => {
     const [success, setSuccess] = useState(false)
     const navigate = useNavigate()
     const location = useLocation()
-    console.log(location)
+    // console.log(location)
 
     const handleSignIn = e => {
         e.preventDefault()
